@@ -1,6 +1,6 @@
 {
   "name": "tnt-carousel",
-  "version": "1.3.6",
+  "version": "1.0",
   "description": "Super simple and lightweight responsive carousel with touch support",
   "main": "src/Carousel.js",
   "scripts": {
@@ -12,16 +12,15 @@
     "gallery",
     "photo",
     "responsive",
-	"lightweight"
+	  "lightweight"
   ],
   "author": {
-    "name": "Rein Van Oyen",
-    "email": "rein@tnt.be",
+    "name": "Tallieu & Tallieu",
     "url": "http://www.tnt.be"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/reinvanoyen/tnt-carousel.git"
+    "url": "https://github.com/TallieuTallieu/tnt-carousel.git"
   },
   "license": "MIT",
   "_id": "tnt-carousel@1.0.2",
