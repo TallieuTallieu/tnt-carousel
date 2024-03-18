@@ -149,7 +149,7 @@ Carousel.prototype.build = function() {
 			
 			this._nextButton = document.createElement( 'button' );
 			this._nextButton.setAttribute('type', 'button');
-			this._prevButton.setAttribute('aria-label', 'next');
+			this._nextButton.setAttribute('aria-label', 'next');
 			this._nextButton.classList.add( this.options.nextArrowClass );
 
 			if( ! this.options.arrowButtonsContainer ) {
