@@ -143,11 +143,13 @@ Carousel.prototype.build = function() {
 		if( this.options.arrowButtons ) {
 
 			this._prevButton = document.createElement( 'button' );
-      this._prevButton.setAttribute('type', 'button');
+			this._prevButton.setAttribute('type', 'button');
+			this._prevButton.setAttribute('aria-label', 'previous');
 			this._prevButton.classList.add( this.options.previousArrowClass );
 			
 			this._nextButton = document.createElement( 'button' );
-      this._nextButton.setAttribute('type', 'button');
+			this._nextButton.setAttribute('type', 'button');
+			this._prevButton.setAttribute('aria-label', 'next');
 			this._nextButton.classList.add( this.options.nextArrowClass );
 
 			if( ! this.options.arrowButtonsContainer ) {
